@@ -1,0 +1,15 @@
+{
+  "name": "@xkairo/scrapy-interfaces",
+  "version": "0.1.0",
+  "description": "Interfaces for Scrapy",
+  "main": "scrapy.d.ts",
+  "keywords": ["scrapy", "interfaces", "typescript"],
+  "author": "Ezequiel Imaz <tavelliezequiel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "tsyringe": "^4.7.0"
+  }
+}
