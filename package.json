@@ -1,6 +1,6 @@
 {
   "name": "@xkairo/scrapy-interfaces",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Interfaces for Scrapy",
   "main": "scrapy.d.ts",
   "keywords": ["scrapy", "interfaces", "typescript"],
