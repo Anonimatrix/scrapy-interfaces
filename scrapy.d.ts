@@ -4,6 +4,8 @@ import { ExceptionHandlerInterface } from "./ExceptionHandlerInterface";
 import { PageScraperInterface } from "./PageScraperInterface";
 import { ProcessorInterface } from "./ProcessorInterface";
 import { UploaderInterface } from "./UploaderInterface";
+import { inject, injectable } from "tsyringe";
+
 export type Instantiable<T> = new (...args: any[]) => T;
 export type Registable = {
     [key: string]: ValueProvider<unknown> | ClassProvider<unknown>;
@@ -16,6 +18,9 @@ export interface ScraperConfigInterface<T extends object> {
     providers?: Registable[];
     exceptionHandler?: Instantiable<ExceptionHandlerInterface>;
 }
+
+export const Injectable = injectable;
+export const Inject = inject;
 
 export interface UploaderInterface {
     /**
