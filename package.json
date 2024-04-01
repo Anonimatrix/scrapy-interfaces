@@ -1,15 +1,29 @@
 {
   "name": "@xkairo/scrapy-interfaces",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Interfaces for Scrapy",
-  "main": "scrapy.d.ts",
-  "keywords": ["scrapy", "interfaces", "typescript"],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [
+    "scrapy",
+    "interfaces",
+    "typescript"
+  ],
   "author": "Ezequiel Imaz <tavelliezequiel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@types/node": "^20.1.0",
     "tsyringe": "^4.7.0"
   }
 }
