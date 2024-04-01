@@ -73,5 +73,7 @@ export {
     UploaderInterface,
     ProcessorInterface,
     PageScraperInterface,
-    ExceptionHandlerInterface
+    ExceptionHandlerInterface,
+    Instantiable,
+    Registable
 }
